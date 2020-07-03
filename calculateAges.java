@@ -78,7 +78,7 @@ System.out.println("");
 
 //TO FIND OUT HOW OLD GRANDPA WAS IN 1960
 if (grandpaYearBorn > 1960){
-System.out.println("Your grandpas was born after 1960, so in 1960 he was 0 years old.");
+System.out.println("Your grandpa was born after 1960, so in 1960 he was 0 years old.");
 
 }else if (grandpaYearBorn < 1960){
 int grandpaSixtiesAge = 1960 - grandpaYearBorn;
