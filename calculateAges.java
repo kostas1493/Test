@@ -35,6 +35,8 @@ int futureMomAge = 2040 - momYearBorn;
 int futureDadAge = 2040 - dadYearBorn;
 int futureGrandpaAge = 2040 - grandpaYearBorn;
 
+System.out.println("");  
+  
 //TO FIND HOW OLD I WAS IN 1960
 if (myYearBorn > 1960){
 System.out.println("You were born after 1960, so in 1960 you were 0 years old.");
@@ -83,7 +85,7 @@ int grandpaSixtiesAge = 1960 - grandpaYearBorn;
 System.out.println("In 1960 you were: " + grandpaSixtiesAge + "!!!");
 }
 //TO FIND OUT HOW OLD GRANDPA WILL BE IN 2040
-System.out.println("In 2040 your mom will be: " + futureGrandpaAge + "!!!");
+System.out.println("In 2040 your grandpa will be: " + futureGrandpaAge + "!!!");
 
 
 }
