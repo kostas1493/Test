@@ -3,19 +3,23 @@ public class calculateAges{
 
 public static void main(String[] args){
 Scanner sc = new Scanner(System.in);
-
+//TO FIND CURRENT YEAR
 System.out.println("What is the current year?");
 int curYear = sc.nextInt();
 
+//TO FIND HOW OLD THE PERSON IS
 System.out.println("How old are you?");
 int myAge = sc.nextInt();
 
+//TO FIND HOW OLD MOM IS  
 System.out.println("How old is your Mother?");
 int motherAge = sc.nextInt();
 
+//TO FIND HOW OLD DAD IS  
 System.out.println("How old is your Father?");
 int fatherAge = sc.nextInt();
 
+//TO FIND HOW OLD GRANDPA IS  
 System.out.println("How old is your Grandpa?");
 int grandpaAge = sc.nextInt();
 
@@ -42,7 +46,7 @@ System.out.println("In 1960 you were: " + sixtiesAge + "!!!");
 //TO FIND OUT HOW OLD I WAS IN 2040
 System.out.println("In 2040 you will be: " + futureAge + "!!!");
 
-
+System.out.println("");
 
 //TO FIND HOW OLD MOM WAS IN 1960
 if (momYearBorn > 1960){
@@ -55,7 +59,7 @@ System.out.println("In 1960 you were: " + momSixtiesAge + "!!!");
 //TO FIND OUT HOW OLD MOM WILL BE IN 2040
 System.out.println("In 2040 your mom will be: " + futureMomAge + "!!!");
 
-
+System.out.println("");
 
 //TO FIND HOW OLD DAD WAS IN 1960
 if (dadYearBorn > 1960){
@@ -68,7 +72,7 @@ System.out.println("In 1960 you were: " + dadSixtiesAge + "!!!");
 //TO FIND OUT HOW OLD DAD WILL BE IN 2040
 System.out.println("In 2040 your dad will be: " + futureDadAge + "!!!");
 
-
+System.out.println("");
 
 //TO FIND OUT HOW OLD GRANDPA WAS IN 1960
 if (grandpaYearBorn > 1960){
