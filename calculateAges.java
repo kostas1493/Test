@@ -56,7 +56,7 @@ System.out.println("You were born after 1960, so in 1960 you were 0 years old.")
 
 }else if (momYearBorn < 1960){
 int momSixtiesAge = 1960 - momYearBorn;
-System.out.println("In 1960 you were: " + momSixtiesAge + "!!!");
+System.out.println("In 1960 your mom was: " + momSixtiesAge + "!!!");
 }
 //TO FIND OUT HOW OLD MOM WILL BE IN 2040
 System.out.println("In 2040 your mom will be: " + futureMomAge + "!!!");
@@ -69,7 +69,7 @@ System.out.println("You were born after 1960, so in 1960 you were 0 years old.")
 
 }else if (dadYearBorn < 1960){
 int dadSixtiesAge = 1960 - dadYearBorn;
-System.out.println("In 1960 you were: " + dadSixtiesAge + "!!!");
+System.out.println("In 1960 your dad was: " + dadSixtiesAge + "!!!");
 }
 //TO FIND OUT HOW OLD DAD WILL BE IN 2040
 System.out.println("In 2040 your dad will be: " + futureDadAge + "!!!");
@@ -82,7 +82,7 @@ System.out.println("You were born after 1960, so in 1960 you were 0 years old.")
 
 }else if (grandpaYearBorn < 1960){
 int grandpaSixtiesAge = 1960 - grandpaYearBorn;
-System.out.println("In 1960 you were: " + grandpaSixtiesAge + "!!!");
+System.out.println("In 1960 your grandpa was: " + grandpaSixtiesAge + "!!!");
 }
 //TO FIND OUT HOW OLD GRANDPA WILL BE IN 2040
 System.out.println("In 2040 your grandpa will be: " + futureGrandpaAge + "!!!");
